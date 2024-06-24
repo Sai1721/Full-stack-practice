@@ -1,0 +1,67 @@
+body{
+    /* outside space */
+    margin: 10px;
+    /* background-color: white; */
+    background-color: rgb(143, 139, 139);
+    display: flex;
+    align-items: center;
+    /* center content */
+    justify-content: center;
+    /* view port height */
+    height: 100vh;
+    /* text center sign in button */
+    text-align: center;
+    /* font */
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: navy;
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    /* txt box centre on container */
+    padding: 60px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px gray;
+}
+.brand-logo{
+    background-image: url(../image/new.webp);
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+}
+.brand-title{
+    color: rgb(32, 203, 60);
+    font-weight: bold;
+}
+.inputs{
+    text-align: left;
+    margin-top: 10px;
+}
+label,button,input{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
+label{
+    margin-top: 10px;
+    color: rgb(32, 203, 60);
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgb(211, 203, 203);
+    
+}
+button{
+    background-color: rgb(48, 203, 89);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 10px;
+}
