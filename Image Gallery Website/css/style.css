@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+#image-gallery{
+    width: 35rem;
+    margin: 4rem auto;
+}
+h2{
+    text-align: center;
+}
+#main-image{
+    width: 100%;
+    /* which means 16px */
+    padding: 1rem; 
+    box-shadow: 3px 3px 5px black;
+
+}
+#thumbnail-container{
+    /* allign row and coloumn */
+    display: flex;
+    /* centering */
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.thumbnail{
+    height: 100px;
+    width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+}
